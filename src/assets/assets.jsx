@@ -421,63 +421,77 @@ export const projects = [
 
 export const blogPosts = [
   {
-    id: 1,
-    title: "",
-    excerpt:
-      "",
-    fullDescription:
-      "",
-    date: "2025-01-15",
-    readTime: "12 min read",
-    image: "🎵",
-    tags: [""],
-    techStack: [
-      // "MongoDB",
-      // "Express.js",
-      // "React",
-      // "Node.js",
-      // "Multer",
-      // "Cloudinary",
-    ],
-    challenges: [
-      // "File upload & streaming integration",
-      // "Playlist management logic",
-      // "Responsive and user-friendly player UI",
-      // "Production errors & deployment issues",
-    ],
-    achievements: [
-      // "Playlist creation & management",
-      // "Cloudinary + Multer integration",
-      // "Modern responsive music player",
-    ],
-  },
+  id: 2,
+  title: "LinkSphere: A MERN-Based LinkedIn Clone for Professional Networking",
+  excerpt:
+    "A full-stack LinkedIn-style networking platform built with the MERN stack featuring authentication, posts, likes, comments, user profiles, and image uploads.",
+  fullDescription:
+    "LinkSphere is a professional networking platform inspired by LinkedIn, built using the MERN stack. It includes secure user authentication with JWT, detailed user profiles, and a social feed where users can create posts, upload images via Cloudinary, like or comment on posts, and connect with other users. The project focuses heavily on clean UI/UX, scalable backend architecture, and efficient MongoDB schema design for posts, comments, user connections, and profiles. With responsive React components, Cloudinary-based image uploading, and an Express-powered REST API, LinkSphere serves as a complete end-to-end demonstration of modern full-stack development. Deployed across Vercel (frontend) and Render/Node (backend), it showcases strong engineering, clean code practices, and production-ready workflows.",
+  date: "2025-01-20",
+  readTime: "10 min read",
+  image: "💼",
+  tags: ["MERN", "Social Media", "Cloudinary", "LinkedIn Clone"],
+  techStack: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "JWT",
+    "Multer",
+    "Cloudinary",
+    "Tailwind CSS"
+  ],
+  challenges: [
+    "Secure authentication and role-based access",
+    "Designing efficient schemas for posts, comments & connections",
+    "Implementing image uploads with Multer + Cloudinary",
+    "Feed optimization and responsive layout handling"
+  ],
+  achievements: [
+    "Fully functional social feed (posts, likes, comments)",
+    "User profiles with images and professional info",
+    "JWT authentication + protected routes",
+    "Deployed full-stack app with CI-ready structure"
+  ]
+},
   {
-    id: 2,
-    title: "",
-    excerpt:
-      "",
-    fullDescription:
-      "",
-    date: "2025-08-15",
-    readTime: "5 min read",
-    image: "🤖",
-    tags: ["GitHub Actions", "AI Review", "Automation", "Gemini AI", "OpenAI"],
-    techStack: [""],
-    challenges: [
-      // "Fetching PR diffs from GitHub API",
-      // "Handling AI API integration (Gemini/OpenAI)",
-      // "Automating PR comments reliably",
-    ],
-    achievements: [
-      // "Automated PR review comments",
-      // "Seamless GitHub Actions integration",
-      // "Supports multiple AI APIs",
-    ],
-    github: "",
-    live: "",
-    status: "Completed",
-    teamSize: "Solo",
-  },
+  id: 2,
+  title: "VisiHire: A MERN Video Calling Interview Platform",
+  excerpt:
+    "A real-time video conferencing and interview management platform built with MERN, WebRTC, Socket.io, and modern UI/UX.",
+  fullDescription:
+    "VisiHire is a real-time video interview platform built using the MERN stack combined with WebRTC and Socket.io for peer-to-peer video calling. The platform enables candidates and recruiters to join secure interview rooms, start live video sessions, share screens, exchange messages via chat, and manage interview scheduling. It features JWT-based authentication, role-based dashboards, and dynamic room creation using unique peer IDs. I focused on implementing WebRTC signaling via Socket.io, designing scalable backend APIs, and delivering a responsive React-based UI optimized for smooth video communication. Deployed on Vercel (frontend) and Render/Node (backend), VisiHire demonstrates real-time system design, media streaming, and advanced MERN integration.",
+  date: "2025-02-01",
+  readTime: "14 min read",
+  image: "🎥",
+  tags: ["MERN", "WebRTC", "Video Calling", "Socket.io", "Interview Platform"],
+  techStack: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "WebRTC",
+    "Socket.io",
+    "JWT",
+    "Peer.js",
+    "Tailwind CSS"
+  ],
+  challenges: [
+    "Implementing WebRTC peer-to-peer video streaming",
+    "Building secure and stable signaling with Socket.io",
+    "Managing dynamic interview rooms and unique peer IDs",
+    "Handling network disruptions, permissions, and media errors",
+    "Ensuring responsive multi-device layout for video calls"
+  ],
+  achievements: [
+    "Fully working video call system using WebRTC",
+    "Real-time chat + screen sharing during interviews",
+    "JWT authentication + role-based dashboards",
+    "Dynamic interview room creation with Socket.io signaling",
+    "Clean and responsive UI for recruiters and candidates"
+  ]
+},
+
   {
     id: 3,
     title: "",
